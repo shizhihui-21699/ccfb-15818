@@ -1,0 +1,19 @@
+{
+  "name": "map-guard",
+  "version": "1.0.0",
+  "description": "众包地图编辑的恶意篡改识别与回滚服务（事件溯源 + 多信号检测 + 依赖感知回滚）",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22.6.0"
+  },
+  "scripts": {
+    "test": "node --test --test-reporter=spec test/",
+    "typecheck": "tsc --noEmit",
+    "demo": "node examples/demo.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^5.7.0"
+  }
+}
